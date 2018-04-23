@@ -1,0 +1,29 @@
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+}
+.mdl-layout__header-row{ 
+  height: 48px;
+  padding-left: 20px;
+}
+#home, #about, #portfolio{
+  text-align: center;
+  margin: 2em;
+}
+
+.technologies{
+  width: 80%;
+  height: 80%;
+}
+#technology-images, #language-images{
+  justify-content: center;
+}
+.project-card-images{
+  width: 100%;
+  height: 100%;
+}
+#project-supporting-text{
+  text-align: justify;
+}
+ul{
+  padding-left: 1em;
+}
