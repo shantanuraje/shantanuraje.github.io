@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="main.js"></script>
 
 
 <head>
@@ -12,145 +13,73 @@
 
 <body>
     <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
-        <header class="mdl-layout__header mdl-layout__header--waterfall">
-            <!-- Top row, always visible -->
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <!-- <span class="mdl-layout-title">Shantanu RajeNimbalkar</span> -->
-                <div class="mdl-layout-spacer"></div>
-
-            </div>
-            <!-- Bottom row, not visible on scroll -->
-            <div class="mdl-layout__header-row">
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation -->
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <!-- <span class="mdl-layout-title">Title</span> -->
+                    <!-- Add spacer, to align navigation to the right -->
+                    <div class="mdl-layout-spacer"></div>
+                    <!-- Navigation. We hide it in small screens. -->
+                    <nav class="mdl-navigation mdl-layout--large-screen-only">
+                        <a class="mdl-navigation__link" href="#home">Home</a>
+                        <a class="mdl-navigation__link" href="#portfolio">Portfolio</a>
+                        <a class="mdl-navigation__link" href="">Link</a>
+                        <a class="mdl-navigation__link" href="">Link</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+                <span class="mdl-layout-title">Title</span>
                 <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="">Home</a>
-                    <a class="mdl-navigation__link" href="">About</a>
-                    <a class="mdl-navigation__link" href="">Portfolio</a>
-                    <a class="mdl-navigation__link" href="">Contact</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
                 </nav>
             </div>
-        </header>
-
-        <main class="mdl-layout__content">
-            <div class="page-content">
-                <div id="home">
-                    <span class="mdl-layout-title">Hello, I'm Shantanu</span>
-                    <span class="">I'm a full stack developer with experience in developing web and mobile applications</span>
-                </div>
-
-                <div id="about">
-                    <span class="mdl-layout-title">Technologies</span>
-                    <div class="mdl-grid" id="language-images">
-                        <div class="mdl-cell mdl-cell--1-col">
-                            <img class="technologies" src="images/technology-icons/if_1416364765_java_coffee_x_cup_application_369797.png">Java</div>
-                        <div class="mdl-cell mdl-cell--1-col">
-                            <img class="technologies" src="images/technology-icons/if_nodejs-512_339733.png">Javascript</div>
-                        <div class="mdl-cell mdl-cell--1-col">
-                            <img class="technologies" src="images/technology-icons/if_Python_logo_282809.png">Python</div>
 
 
+            <main class="mdl-layout__content" id="home">
+                <div class="page-content">
+                    <div id="home">
+                        <span class="mdl-layout-title">Hello, I'm Shantanu</span>
+                        <span class="">I'm a full stack developer with experience in developing web and mobile applications</span>
                     </div>
 
-                    <div class="mdl-grid" id="technology-images">
-                        <div class="mdl-cell mdl-cell--1-col">
-                            <img class="technologies" src="images/technology-icons/if_android_1010034.png">Android</div>
-                        <div class="mdl-cell mdl-cell--1-col">
-                            <img class="technologies" src="images/technology-icons/if_angular_1145600.png">Angular</div>
-                        <div class="mdl-cell mdl-cell--1-col">
-                            <img class="technologies" src="images/technology-icons/if_html5_313112.png">HTML5</div>
-                        <div class="mdl-cell mdl-cell--1-col">
-                            <img class="technologies" src="images/technology-icons/if_icon-77-document-file-css_315874.png">CSS</div>
-                        <div class="mdl-cell mdl-cell--1-col">
-                            <img class="technologies" src="images/technology-icons/if_mysql_1322469.png">MySQL</div>
-                    </div>
-                </div>
+                    <div id="about">
+                        <span class="mdl-layout-title">Technologies</span>
+                        <div class="mdl-grid" id="language-images">
+                            <div class="mdl-cell mdl-cell--1-col">
+                                <img class="technologies" src="images/technology-icons/if_1416364765_java_coffee_x_cup_application_369797.png">Java</div>
+                            <div class="mdl-cell mdl-cell--1-col">
+                                <img class="technologies" src="images/technology-icons/if_nodejs-512_339733.png">Javascript</div>
+                            <div class="mdl-cell mdl-cell--1-col">
+                                <img class="technologies" src="images/technology-icons/if_Python_logo_282809.png">Python</div>
 
-                <div id="portfolio">
-                    <span class="mdl-layout-title">Projects</span>
-                    <div class="mdl-grid" id="project-cards">
-                        <div class="mdl-cell mdl-card mdl-shadow--4dp mdl-cell--4-col">
-                            <!-- <div class="mdl-card__title">
-                                 Egg Bounce   
-                            </div> -->
 
-                            <div class="mdl-card__media">
-                                <img src="images/projects/eggbounce-card-image.PNG" class="project-card-images">
-                            </div>
-
-                            <div class="mdl-card__supporting-text" id="project-supporting-text">
-                                    <ul>
-                                            <li>A simple tap-to-play game for Android using Unity3D game engine.</li>
-                                            <li>Created basic 3D and graphic design of in-game objects using Gimp and Blender.</li>
-                                            <li>Wrote code to integrate google ad engine to show in-game ads for monetization.</li>
-                                            <li>Currently has 100k+ installs and an average rating of 4.</li>
-                                    </ul>
-                            </div>
-
-                            <!-- Action Elements using class "mdl-card__actions"-->
-                            <div class="mdl-card__actions mdl-card--border">
-                                <!-- Border added using class "mdl-card--border"-->
-
-                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.DesignNXT.EggBounce" target="_blank">
-                                    <!-- Button with ripple Effect-->
-                                    Check it out
-                                </a>
-
-                            </div>
                         </div>
-                        <div class="mdl-cell mdl-card mdl-shadow--4dp  mdl-cell--4-col">
-                            <!-- <div class="mdl-card__title">
-                                Maharashtra Multi Distributors Catalog
-                            </div> -->
 
-                            <div class="mdl-card__media">
-                                    <img src="images/projects/mmdl-card-image.PNG" class="project-card-images">
-                                </div>
-
-                                <div class="mdl-card__supporting-text" id="project-supporting-text">
-                                        <ul>
-                                                <li>A cross-platform Product Catalogue mobile application for Maharashtra Multi Distributors Ltd.</li>
-                                                <li>Designed the categories and product schemas, created a JSON database of all products.</li>
-                                                <li>Conceptualized UI/UX layout for the application according to their current product catalogue as well as wrote the backend system using NodeJS server.</li>
-                                                <li>Deployed a in-app enquiry system to help the client streamline enquiries and connect with potential customers.</li>
-                                        </ul>
-                                </div>
-
-                            <!-- Action Elements using class "mdl-card__actions"-->
-                            <div class="mdl-card__actions mdl-card--border">
-                                    <!-- Border added using class "mdl-card--border"-->
-    
-                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.DesignNXT.mmdlcat" target="_blank">
-                                        <!-- Button with ripple Effect-->
-                                        Check it out
-                                    </a>
-    
-                                </div>
-                        </div>
-                        <div class="mdl-cell mdl-card mdl-cell--4-col">
-                            <div class="mdl-card__title">
-                                Roomojo
-                            </div>
-
-                            <div class="mdl-card__media">
-
-                            </div>
-
-                            <div class="mdl-card__supporting-text">
-
-                            </div>
-
-                            <div class="mdl-card__actions">
-
-                            </div>
+                        <div class="mdl-grid" id="technology-images">
+                            <div class="mdl-cell mdl-cell--1-col">
+                                <img class="technologies" src="images/technology-icons/if_android_1010034.png">Android</div>
+                            <div class="mdl-cell mdl-cell--1-col">
+                                <img class="technologies" src="images/technology-icons/if_angular_1145600.png">Angular</div>
+                            <div class="mdl-cell mdl-cell--1-col">
+                                <img class="technologies" src="images/technology-icons/if_html5_313112.png">HTML5</div>
+                            <div class="mdl-cell mdl-cell--1-col">
+                                <img class="technologies" src="images/technology-icons/if_icon-77-document-file-css_315874.png">CSS</div>
+                            <div class="mdl-cell mdl-cell--1-col">
+                                <img class="technologies" src="images/technology-icons/if_mysql_1322469.png">MySQL</div>
                         </div>
                     </div>
+
+
                 </div>
 
-            </div>
-        </main>
-    </div>
+            </main>
+
+        </div>
 
 </body>
 

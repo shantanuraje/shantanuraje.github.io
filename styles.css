@@ -1,13 +1,10 @@
 .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
   padding-right: 0;
 }
-.mdl-layout__header-row{ 
-  height: 48px;
-  padding-left: 20px;
-}
+
 #home, #about, #portfolio{
   text-align: center;
-  margin: 2em;
+  /* margin: 2em; */
 }
 
 .technologies{
