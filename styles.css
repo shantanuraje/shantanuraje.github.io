@@ -12,7 +12,7 @@ body{
 
 .technologies{
   width: 75%;
-  height: 75%;
+  /* height: 75%; */
   margin: 10px;
 }
 .tech-text{
@@ -64,4 +64,7 @@ h1{
 }
 .checkout-button{
   height: 50px;
+}
+.mdl-layout__header{
+  min-height: 0;
 }
