@@ -1,8 +1,8 @@
 <html>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-<link rel="stylesheet" type="text/css" href="styles.css">
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
 <script src="main.js"></script>
 
 
@@ -29,7 +29,12 @@
             </div>
         </header>
         <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <span class="mdl-layout-title">Shantanu Rajenimbalkar</span>
+            <span class="mdl-layout-title" id="drawer-title">Shantanu Rajenimbalkar</span>
+            <nav class="mdl-navigation">
+                    <a href="#home-section" class="mdl-navigation__link">Home</a>
+                    <a href="#portfolio-section" class="mdl-navigation__link">Portfolio</a>
+                    <a href="#contact-section" class="mdl-navigation__link">Contact</a>                    
+            </nav>
         </div>
         <main class="mdl-layout__content">
             <section class="mdl-layout__tab-panel is-active" id="home-section">

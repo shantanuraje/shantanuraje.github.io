@@ -19,6 +19,7 @@ body{
   font-size: 1.2em;
 }
 .mdl-layout-title{
+  color: white;
   font-size: 2em;
 }
 #technology-images, #language-images{
@@ -65,6 +66,9 @@ h1{
 #contact-card-title{
   background-color: rgb(63,81,181);
 }
+.mdl-layout__drawer{
+  background-color: rgb(63,81,181);
+}
 .checkout-button{
   height: 50px;
 }
@@ -90,4 +94,10 @@ h1{
 }
 .mdl-list__item{
   padding: 0;
+}
+#drawer-title{
+  font-size: 1.3em;
+}
+.mdl-navigation__link{
+ color: white;
 }
