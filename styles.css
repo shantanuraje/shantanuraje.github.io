@@ -62,9 +62,32 @@ h1{
 #roomojo-card-title{
   background-color: #f66;
 }
+#contact-card-title{
+  background-color: rgb(63,81,181);
+}
 .checkout-button{
   height: 50px;
 }
 .mdl-layout__header{
   min-height: 0;
+}
+#contact-section.page-content{
+  /* height: 100%; */
+  padding: 5% 0;
+}
+/* .page-content{
+  height: 100%;
+  position: relative;
+} */
+#contact-card{
+  padding: 10% 0;
+}
+#contact-supporting-text{
+  /* width: 100%; */
+}
+.contact-links{
+  padding-left: 2%;
+}
+.mdl-list__item{
+  padding: 0;
 }
