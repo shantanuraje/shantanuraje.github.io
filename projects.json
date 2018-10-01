@@ -1,0 +1,401 @@
+{
+    "projects": {
+        "professional": [
+            {
+                "name": "Egg Bounce",
+                "company": "DesignNXT Technosoft Pvt. Ltd.",
+                "url": "https://play.google.com/store/apps/details?id=com.DesignNXT.EggBounce",
+                "github": "",
+                "technologies": [
+                    "Unity3D",
+                    "Google AdMob",
+                    "Mono",
+                    "Gimp",
+                    "Blender"
+                ],
+                "languages": [
+                    "C#"
+                ],
+                "description": [
+                    "Designed a simple tap-to-play game for Android.",
+                    "Wrote code to integrate Google AdMob engine to show in-game ads for monetization.",
+                    "Created basic 3D and graphic design of in-game objects using Gimp and Blender."
+                ]
+            },
+            {
+                "name": "MMDL Product catalog",
+                "company": "DesignNXT Technosoft Pvt. Ltd.",
+                "url": "https://play.google.com/store/apps/details?id=com.DesignNXT.mmdlcat",
+                "github": "",
+                "technologies": [
+                    "Xamarin",
+                    "NodeJS",
+                    "JSON"
+                ],
+                "languages": [
+                    "C#",
+                    "JavaScript"
+                ],
+                "description": [
+                    "Created a cross-platform Product Catalogue mobile application for Maharashtra Multi Distributors Ltd. Designed the categories and product schemas, created a JSON database of all products.",
+                    "Conceptualized UI/UX layout for the application according to their current product catalog.",
+                    "Built the Native Android application using Xamarin studio and wrote the backend system using NodeJS server.",
+                    "Deployed an in-app inquiry system to help the client streamline inquiries and connect with potential customers."
+                ]
+            },
+            {
+                "name": "Hotel Room Booking Website",
+                "company": "DesignNXT Technosoft Pvt. Ltd.",
+                "url": "",
+                "github": "",
+                "technologies": [
+                    "HTML5",
+                    "CSS",
+                    "MEAN Stack",
+                    "MeteorJS",
+                    "Apache Cordova",
+                    "MongoDB",
+                    "REST API"
+                ],
+                "languages": [
+                    "JavaScript"
+                ],
+                "description": [
+                    "Architected an entire ecosystem for an online hotel room reservation and management service for a client.",
+                    "The system comprises of a Guest, Admin, and Super Admin web interfaces and cross-platform hybrid mobile application for Guest and Admin."
+                ]
+            }
+        ],
+        "academic": [
+            {
+                "name": "Room Space Saver",
+                "course": "Software System Design & Implementation",
+                "url": "",
+                "github": "https://github.com/shantanuraje/RoomSpaceSaver",
+                "technologies": [
+                    "Android",
+                    "SQLite"
+                ],
+                "languages": [
+                    "Java"
+                ],
+                "description": [
+                    "An application that lets you organize your room virtually. ",
+                    "Focus was more on the approach to design such a system rather than actual implementation. ",
+                    "Worked with a team of 4 through the phases of conception, initiation, analysis, design and implementation. ",
+                    "Identified scope of project, Risk management & mitigation strategies, and various other requirements.",
+                    "Created Use Case, State & Activity diagrams using UML modelling. ",
+                    "Designed mockup UI using prototyping tools and built a very basic Android application."
+                ]
+            },
+            {
+                "name": "Churn Rate Prediction",
+                "course": "Survey of Programming Languages",
+                "url": "",
+                "github": "https://github.com/shantanuraje/Churn-Prediction",
+                "technologies": [
+                    "R Studio"
+                ],
+                "languages": [
+                    "R"
+                ],
+                "description": [
+                    "The churn rate, also known as the rate of attrition, is the percentage of subscribers to a service who discontinue their subscriptions to that service within a given time period.",
+                    "We used Classification algorithms such as Decision Trees, Logistic Regression to predict whether a customer was likely to discontinue the service or not."
+                ]
+            },
+            {
+                "name": "911 Emergencies",
+                "course": "Visual Analytics",
+                "url": "",
+                "github": "https://github.com/shantanuraje/911_Emergencies",
+                "technologies": [
+                    "HTML5",
+                    "CSS",
+                    "D3 JS",
+                    "NodeJS"
+                ],
+                "languages": [
+                    "JavaScript"
+                ],
+                "description": [
+                    "Performed exploratory data analysis in to 911 Emergency call data from Montgomery County, PA (https://www.kaggle.com/mchirico/montcoalert). ",
+                    "Used simple text processing techniques to extract major categories & subcategories of Emergencies. ",
+                    "Created simple data visualizations to gain quantitative insights about various kinds of emergencies."
+                ]
+            },
+            {
+                "name": "Lempel-Ziv-Welch (LZW) Compression",
+                "course": "Algorithms and Data Structures",
+                "url": "",
+                "github": "",
+                "technologies": [],
+                "languages": [
+                    "Python"
+                ],
+                "description": [
+                    "Implemented the LZW algorithm using Python.",
+                    "The Lempel–Ziv–Welch (LZW) algorithm is a lossless data compression algorithm. LZW is an adaptive compression algorithm that does not assume prior knowledge of the input data distribution. ",
+                    "This algorithm works well when the input data is sufficiently large and there is redundancy in the data. ",
+                    "Two examples of commonly used file formats that use LZW compression are the GIF image format served from websites and the TIFF image format. ",
+                    "LZW compression is also suitable for compressing text files, and is the algorithm in the compress Unix file compression utility.",
+                    "This algorithm has two steps: 1. Encoding/Compressing, 2. Decoding/Decompressing",
+                    "The interesting thing is that the encoding table, or dictionary, computed during the encoding process does not need to be explicitly transmitted. It can be regenerated from the coded/compressed data."
+                ]
+            },
+            {
+                "name": "Shortest Paths in a Network - Dijkstra's",
+                "course": "Algorithms and Data Structures",
+                "url": "",
+                "github": "",
+                "technologies": [],
+                "languages": [
+                    "Python"
+                ],
+                "description": [
+                    "Created a Graph data structure to implement the shortest path algorithm.",
+                    "Implemented Dijkstra's shortest path algorithm using a priority queue. The priority queue was implemented using a binary heap.",
+                    "The project consisted of a Graph class, a Edge class and a Vertex class.",
+                    "Building the initial graph from network.txt.",
+                    "Implementing functions to edit the graph such as adding/deleting edges, marking edges/vertices to be up or down.",
+                    "Finding the shortest path between two vertices using Dijkstra's algorithm.",
+                    "Printing the contents of the graph. Vertices and Edges were printed in alphabetical order.",
+                    "Identifying all reachable vertices for each vertex."
+                ]
+            },
+            {
+                "name": "Slang Based Cultural Origin Detection",
+                "course": "Computational Human Behavior Modeling",
+                "url": "",
+                "github": "https://github.com/shantanuraje/Slang-based-Cultural-origin",
+                "technologies": [
+                    "Twitter API",
+                    "Tableau"
+                ],
+                "languages": [
+                    "Python"
+                ],
+                "description": [
+                    "Dialect is a variety of language shared by a group of speakers. Dialectology is the study of language varies across regional contexts.",
+                    "Text based geolocation is always a challenge as explicit location such as GPS coordinates, other metadata which are not always available.",
+                    "In this project we try to analyze if certain words are specific to a region and whether they could be strong indicators of a person’s origin.",
+                    "Dataset used from the paper 'A latent variable model for geographic lexical variation' from the project’s repository located at: http://www.ark.cs.cmu.edu/GeoTwitter",
+                    "The dataset contained 380,000 tweets from 9500 unique users.",
+                    "Reverse geolocated all unique latitude-longitude pairs.",
+                    "Divided the 50 US states into 4 geographic regions with known cultural differences i.e northeast, west, Midwest and south.",
+                    "Tokenized all the tweets in the region, and collected all the words for that region in an array.",
+                    "Calculated the frequency distribution of each unique word in this array.",
+                    "Counted the occurrences of each word in the curated list in the all of region’s words.",
+                    "Plot the frequencies of each word for each region to analyze if any words are specific to any region."
+                ]
+            },
+            {
+                "name": "Regex and Morphological Analysis",
+                "course": "Natural Language Processing",
+                "url": "",
+                "github": "",
+                "technologies": [
+                    "NLTK"
+                ],
+                "languages": [
+                    "Python",
+                    "R",
+                    "R Markdown"
+                ],
+                "description": [
+                    "Basics of Natural Language Processing",
+                    "Implementing various kinds of operations on a String such as - splitting, extraction, slicing, combining.",
+                    "Tokeninzing a string and printing them in alphabetical order.",
+                    "Writing Regex to match determiners in a string, or identifying arithmetic expressions.",
+                    "Writing Regex to extract email addresses from a string.",
+                    "Eliminating duplicate lines from an input file.",
+                    "Analyze debate.txt file, assign statements to speakers and concatenate statements made by each speaker while ignoring crosstalk.",
+                    "Preprocess debate file to discard punctuation, remove capitalization, stop words and takenize the words.",
+                    "Using Porter, Snowball, Lancaster stemmers from NLTK to stem each of the speaker statements.",
+                    "Output the list of 10 most frequent words used by each speaker.",
+                    "Determine which speaker uses positive words listed in dictionary of positive words. Print 10 most frequent positive words used by each speaker.",
+                    "Create a visualization using R to compare overall positive word rate for each speaker. Output results using a R Markdown."
+                ]
+            },
+            {
+                "name": "N-Grans for two Corpora",
+                "course": "Natural Language Processing",
+                "url": "",
+                "github": "",
+                "technologies": [
+                    "NLTK"
+                ],
+                "languages": [
+                    "Python"
+                ],
+                "description": [
+                    "Trained probabilistic language models to distinguish between words in different languages such as English, Spanish, and French.",
+                    "Built models of character sequences to make a guess about the language of unseen words.",
+                    "Corpus used: Universal Declaration of Human Rights included in NLTK library."
+                ]
+            },
+            {
+                "name": "Spell Checker",
+                "course": "Natural Language Processing",
+                "url": "",
+                "github": "",
+                "technologies": [
+                    "NLTK"
+                ],
+                "languages": [
+                    "Python"
+                ],
+                "description": [
+                    "Trained a language model to build a spelling checker using the Noisy-Channel model.",
+                    "Given a sentence with exactly on typing error, select the correction that gets highest likelihood under the noisy channel model.",
+                    "Implemented the Laplace Unigram  with add-one smooting, Bigram and Trigram language models. Out-of-vocabulary items treated as words with 0 counts.",
+                    "Evaluated implemented language models on unseen development and test datasets.",
+                    "Corpus used: Writings of secondary-school children collected by Davis Holbrook."
+                ]
+            },
+            {
+                "name": "Text Classification",
+                "course": "Natural Language Processing",
+                "url": "",
+                "github": "",
+                "technologies": [
+                    "NLTK"
+                ],
+                "languages": [
+                    "Python",
+                    "R"
+                ],
+                "description": [
+                    "Created text classification models to classify sentences from 2016 presidential debates according to speaker.",
+                    "Reading training documents to collect counts of documents per class and count of words for all speakers.",
+                    "Implemented a Naive Bayes classifier from scratch to classify speaker sentences.",
+                    "Wrote code to compute log probabilities of a sentence belonging to each speaker.",
+                    "Ran the classifier on the test set and reported accuracy.",
+                    "Contructed a bag-of-words model to include additional features (words as boolean features) in to the model.",
+                    "Plot results stored in JSON file of the 20 most representative words in each speaker's vocabulary sorted by their weight, using R."
+                ]
+            },
+            {
+                "name": "Vector Semantics",
+                "course": "Natural Language Processing",
+                "url": "",
+                "github": "",
+                "technologies": [
+                    "NLTK",
+                    "Genism"
+                ],
+                "languages": [
+                    "Python"
+                ],
+                "description": [
+                    "Used pre-trained word embeddings (Word2Vec Mikolov et al. [2013a]) to predict analogies between words. E.g “man is to woman as king is to queen.",
+                    "Worked with following groups in the analogy dataset: capital-world, currency, city-in-state, family, gram1-adjective-to-adverb, gram2-opposite, gram3-comparative, and gram6-nationality-adjective.",
+                    "Implemented the analogy prediction task using the two sets of embeddings, compared their accuracies on the eight analogy tasks listed.",
+                    "Discussed why antonyms have similar embeddings.",
+                    "Designed two new types of analogy tests and evaluated how well the two sets perform on test questions."
+                ]
+            },
+            {
+                "name": "Machine Translation",
+                "course": "Natural Language Processing",
+                "url": "",
+                "github": "",
+                "technologies": [
+                    "NLTK"
+                ],
+                "languages": [
+                    "Python"
+                ],
+                "description": [
+                    "Implemented a Direct Machine Translation system using collected data.",
+                    "Obtained a parallel corpus of sentences in two languages 'Parallel data - news commentary v11 de-en' from http://www.statmt.org/wmt16/translation-task.html, divided it into train, dev and test sets from ",
+                    "Created a bilingual dictionary to translate each word from language A to B.",
+                    "Performed pre and post processing techniques such as tokenization, case conversion, removing special characters, numbers, etc.",
+                    "Observed translations with the current system and identified problems.",
+                    "Implemented the IBM Model 1 algorithm, and trained it on the Europarl corpus which contained sentences extracted from proceedings of the European parliament in various languages."
+                ]
+            },
+            {
+                "name": "CNN News Aggregation",
+                "course": "Mobile Application Development",
+                "url": "",
+                "github": "",
+                "technologies": [
+                    "Android",
+                    "Picasso",
+                    "CNN News API"
+                ],
+                "languages": [
+                    "Java"
+                ],
+                "description": [
+                    "Developed a mobile news application using the XML RSS feeds provided by CNN.",
+                    "Created wireframe layouts to display news from various categories, and display news that was clicked on.",
+                    "Connected to CNN API using HTTP protocol to retrieve news from CNN for requested category using AsyncTask.",
+                    "Used Picasso library to retrieve image associated with the news that was clicked on."
+                ]
+            },
+            {
+                "name": "Forum Mobile Application",
+                "course": "Mobile Application Development",
+                "url": "",
+                "github": "",
+                "technologies": [
+                    "Android",
+                    "REST API",
+                    "OkHTTP",
+                    "GSON"
+                ],
+                "languages": [
+                    "Java"
+                ],
+                "description": [
+                    "Developed a forum mobile application that allowed users to create, edit and delete threads about topics and post & edit messages in the thread.",
+                    "Created multiple wireframe layouts to let a user sign up, login, display current thread, create new threads.",
+                    "Used OkHTTP to communicate with a pre-made REST API that allowed the user to login, signup, create threads and post messages"
+                ]
+            }
+        ],
+        "personal": [
+            {
+                "name": "#CharlotteProtests Sentiments Visualization over 5 days",
+                "for": "Stratifyd Hackathon 2016",
+                "url": "https://nickbreaton.github.io/stratifyd-hackathon-2016/",
+                "github": "https://github.com/shantanuraje/stratifyd-hackathon-2016",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "LeafletJS",
+                    "MomentJS",
+                    "Signals by Stratifyd"
+                ],
+                "languages": [
+                    "JavaScript"
+                ],
+                "description": [
+                    "Using Stratifyd's text analysis software, Signals, we created a map that tracks tweets with the hashtag #CharlotteProtest.",
+                    "The map displays each states' average sentiment score over a period of time to express the opinions of tweeters as the protests went on.",
+                    "This project was created in a 24-hour hackathon by Shantanu RajeNimbalkar, Chris Smith, Jeremy Bohannon, and Nick Breaton."
+                ]
+            },
+            {
+                "name": "American Epilepsy Society Seizure Prediction",
+                "for": " Kaggle Competition",
+                "url": "",
+                "github": "",
+                "technologies": [
+                    "Machine Learning",
+                    "Logistic Regression",
+                    "Digital Signal Processing"
+                ],
+                "languages": [
+                    "MATLAB"
+                ],
+                "description": [
+                    "Developed a seizure forecasting system in MATLAB using techniques in Digital Signal Processing and Machine learning to classify between interictal and preictal states in intracranial EEG recordings of dogs and human with naturally occurring epilepsy.",
+                    "Finished 140th out of 504 teams, with a best submission of 0.64 on the test sets."
+                ]
+            }
+        ]
+    }
+}
